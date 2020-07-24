@@ -198,7 +198,6 @@ triangle-tres {
 .foto-tres .img-fluid {
     margin-top: 7em;
     max-width: 80%;
-    padding-left: 2em;
     height: auto;
 }
 
@@ -258,7 +257,7 @@ triangle-tres {
 
 #contact {
     margin-top: 10em;
-    margin-bottom: 3em;
+    margin-bottom: 10em;
 }
 
 .contacto {
