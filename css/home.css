@@ -62,18 +62,6 @@ body {
     margin: 0;
 }
 
-@media handheld, only screen and (max-width: 767px) {
-    .triangle {
-    display:none;
-    }
-}
-
-@media only screen and (max-width: 1023px) {
-    .triangle {
-    display:none;
-    }
-}
-
 triangle-tres {
     position: absolute;
     left: 0em;
@@ -167,18 +155,6 @@ triangle-tres {
     border-left: 1680px solid transparent;
     z-index: -1;
     margin: 0;
-}
-
-@media handheld, only screen and (max-width: 767px) {
-    .triangle-dos {
-    display:none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .triangle-dos {
-    display:none;
-    }
 }
 
 .badges {
