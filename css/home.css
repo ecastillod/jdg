@@ -84,7 +84,7 @@ triangle-tres {
     border-right: 400px solid transparent;
 }
 
-#sobre-mi {
+#experiencia {
     padding-top: 12em;
     border-color: #ffffff;
     padding-bottom: 3em;
@@ -126,10 +126,11 @@ triangle-tres {
     height: auto;
 }
 
-#experiencia {
+#consultoria {
     margin-top: 4em;
     padding-top: 6em;
-    padding-bottom: 10em;
+    padding-bottom: 15em;
+    margin-bottom: 0;
     border-color: #ffffff;
     background-color: #000000;
 }
@@ -153,7 +154,7 @@ triangle-tres {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1em;
     margin-bottom: 0;
 }
@@ -161,16 +162,16 @@ triangle-tres {
 .triangle-dos {
     position: absolute;
     left: -15em;
-    top: 260em;
+    top: 255em;
     height: 0; 
-    border-top: 1000px solid #ffc72c;
+    border-top: 1400px solid #ffc72c;
     border-left: 1680px solid transparent;
     z-index: -1;
     margin: 0;
 }
 
 .badges {
-    margin-top: 7em;
+    margin-top: 5em;
 }
 
 .badge {
@@ -185,23 +186,23 @@ triangle-tres {
 
 .foto-tres .img-fluid {
     margin-top: 7em;
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
 }
 
 .foto-cuatro .img-fluid {
-    margin-top: 7em;
-    max-width: 80%;
+    margin-top: 2em;
+    padding-top: 5em;
+    max-width: 90%;
     height: auto;
 }
 
-#experiencia .card-text {
+#consultoria .card-text {
     color: #ffffff;
     margin-right: 3em;
 }
 
 #clientes {
-    margin-top: 2em;
     padding: 3em;
     margin-bottom: 3em;
 }
