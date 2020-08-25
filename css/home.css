@@ -33,13 +33,23 @@ body {
     -o-background-size: cover;
 */
 
+.texto-cero {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 0 0 black, 0 0 2px black;
+    color: #ffffff;
+    font-size: 2em;
+    line-height: 1em;
+    padding-top: 21em;
+    margin-bottom: 0.8em;
+}
+
 .texto-uno {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 1em;
     line-height: 1em;
-    padding-top: 46em;
     margin-bottom: 0;
 }
 
@@ -96,12 +106,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #000000;
-    font-size: 4vw;
+    font-size: 2.8em;
     margin-top: 1em;
     max-width: 90%;
 }
 
-.card-title b {
+.about .card-title b {
     border-bottom: 8px solid #ffffff;
 }
 
@@ -109,9 +119,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #000000;
-    font-size: 1.9vw;
-    line-height: 2.8vw;
-    margin-top: 2em;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    margin-top: 1em;
     max-width: 90%;
 }
 
@@ -126,7 +136,6 @@ body {
     padding-top: 6em;
     padding-bottom: 15em;
     margin-bottom: 0;
-    border-color: #ffffff;
     background-color: #000000;
 }
 
@@ -134,29 +143,28 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    font-size: 3.5em;
+    font-size: 2.7em;
+    line-height: 1.3em;
     margin-bottom: 1em;
     margin-top: 2em;
     max-width: 80%;
-}
-
-.que-hago b {
-    border-bottom: 8px solid #ffc72c;
 }
 
 .texto-cuatro {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    font-size: 2.2em;
+    font-size: 1.8em;
     line-height: 1em;
+    padding: 0;
     margin-bottom: 0;
+    margin-top: 3em;
 }
 
 .triangle-dos {
     position: absolute;
     left: -15em;
-    top: 250em;
+    top: 240em;
     height: 0; 
     border-top: 1400px solid #ffc72c;
     border-left: 1680px solid transparent;
@@ -165,29 +173,29 @@ body {
 }
 
 .badges {
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 .badge {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 1.6em;
-    padding: 0.5em;
+    font-size: 1.4em;
+    padding: 0.7em;
     margin-top: 2em;
     background-color: #ffc72c;
     width: 80%;
 }
 
 .foto-tres .img-fluid {
-    margin-top: 7em;
+    margin-top: 3em;
     max-width: 90%;
     height: auto;
 }
 
 .foto-cuatro .img-fluid {
     margin-top: 2em;
-    padding-top: 5em;
+    padding-top: 2em;
     max-width: 90%;
     height: auto;
 }
@@ -224,10 +232,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #ffffff;
-    font-size: 1.8em;
-    line-height: 1.6em;
+    font-size: 1.4em;
+    line-height: 1.7em;
     margin-bottom: 0;
-    max-width: 90%;
+    max-width: 80%;
+    padding-top: 1.5em;
 }
 
 .texto-tres {
