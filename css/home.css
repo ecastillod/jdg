@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .bar {
@@ -23,15 +24,13 @@ body {
 #home {
     background: url('https://i.ibb.co/fFwF9zD/jdg-bg.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position-y: 3em;
-    width: 100%;
-}
-
-/*
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-*/
+    background-position-y: 3em;
+    background-position-x: center;
+    width: 100%;
+}
 
 .texto-cero {
     font-family: 'Montserrat', sans-serif;
@@ -75,7 +74,7 @@ body {
     margin: 0;
 }
 
-/*@media handheld, only screen and (max-width: 767px) {
+@media handheld, only screen and (max-width: 767px) {
     .triangle {
     display:none;
     }
@@ -85,7 +84,7 @@ body {
     .triangle {
     display:none;
     }
-}*/
+}
 
 #experiencia {
     padding-top: 6em;
@@ -170,6 +169,18 @@ body {
     border-left: 1680px solid transparent;
     z-index: -1;
     margin: 0;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    .triangle-dos {
+    display:none;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .triangle-dos {
+    display:none;
+    }
 }
 
 .badges {
@@ -260,32 +271,32 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #000000;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.3em;
+    line-height: 1.4em;
 }
 
 .texto-seis span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffc72c;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1em;
+    line-height: 1em;
 }
 
 .texto-siete {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.3em;
+    line-height: 1.4em;
 }
 
 .texto-ocho {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1em;
+    line-height: 1.1em;
 }
 
 .info {
@@ -330,7 +341,7 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
-  /* Style the submit button with a specific background color etc */
+  /* Style the submit button with a specific background color etc
   input[type=submit] {
     background-color: #ffc72c;
     color: #000;
@@ -340,11 +351,12 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+  /* When moving the mouse over the submit button, add a darker green color
   input[type=submit]:hover {
     background-color: #000;
     color: #ffffff;
   }
+*/
 
 footer {
     background: #000000;
