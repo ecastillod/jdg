@@ -262,10 +262,11 @@ body {
     margin-bottom: 10em;
 }
 
-.contacto {
+/* .contacto {
     padding-left: 8em;
     padding-right: 8em;
 }
+*/
 
 .texto-seis {
     font-family: 'Montserrat', sans-serif;
@@ -313,15 +314,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.5em;
+    line-height: 2em;
 }
 
 .formulario input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 /* Style inputs with type="text", select elements and textareas */
