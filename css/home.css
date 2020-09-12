@@ -110,6 +110,20 @@ body {
     max-width: 90%;
 }
 
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 601px) {
+    div.about .card-title {
+      font-size: 2.8em;
+    }
+  }
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+    div.about .card-title {
+      font-size: 2em;
+    }
+  }
+
 .about .card-title b {
     border-bottom: 8px solid #ffffff;
 }
@@ -123,6 +137,20 @@ body {
     margin-top: 1em;
     max-width: 90%;
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.about .card-text {
+      font-size: 1.3em;
+    }
+  }
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+    div.about .card-text {
+      font-size: 1em;
+    }
+  }
 
 .foto .img-fluid {
     margin-top: 9em;
@@ -148,6 +176,21 @@ body {
     margin-top: 2em;
     max-width: 80%;
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.que-hago .card-title {
+      font-size: 2.8em;
+    }
+  }
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+    div.que-hago .card-title {
+      font-size: 2em;
+    }
+  }
+
 
 .texto-cuatro {
     font-family: 'Montserrat', sans-serif;
@@ -228,10 +271,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #000000;
-    font-size: 55px;
-    line-height: 55px;
+    font-size: 2.8em;
+    line-height: 1.3;
     margin-top: 2em;
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.texto-dos {
+      font-size: 2.8em;
+    }
+  }
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+    div.texto-dos {
+      font-size: 2em;
+    }
+  }
 
 .texto-dos b {
     border-bottom: 8px solid #ffffff;
@@ -252,10 +309,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.8em;
+    line-height: 1em;
     margin: 1.5em;
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .texto-tres {
+      font-size: 1.8em;
+    }
+  }
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+    .texto-tres {
+      font-size: 1.4em;
+    }
+  }
 
 #contact {
     margin-top: 10em;
@@ -296,9 +367,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 1em;
-    line-height: 1.1em;
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .texto-ocho {
+      font-size: 1.2em;
+    }
+  }
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+    .texto-ocho {
+      font-size: 1em;
+    }
+  }
 
 .info {
     padding-bottom: 3em;
