@@ -66,7 +66,7 @@ body {
 .triangle {
     position: absolute;
     left: 0em;
-    top: 10rem;
+    top: 14em;
     width: 0;
     height: 0;
     border-bottom: 120em solid #ffc72c;
@@ -207,7 +207,7 @@ body {
 .triangle-dos {
     position: absolute;
     left: -15em;
-    top: 240em;
+    top: 247em;
     height: 0; 
     border-top: 1400px solid #ffc72c;
     border-left: 1680px solid transparent;
@@ -387,7 +387,7 @@ body {
 
 .formulario {
     padding-top: 3em;
-    padding-top: 3em;
+    margin-top: 3em;
     max-width: 80%;
 }
 
