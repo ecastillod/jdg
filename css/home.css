@@ -30,6 +30,7 @@ body {
     background-position-y: 3em;
     background-position-x: center;
     width: 100%;
+    height: auto;
 }
 
 .texto-cero {
@@ -74,13 +75,13 @@ body {
     margin: 0;
 }
 
-@media handheld, only screen and (max-width: 767px) {
+@media screen and (min-width: 601px) {
     .triangle {
     display:none;
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media screen and (max-width: 600px) {
     .triangle {
     display:none;
     }
@@ -112,14 +113,14 @@ body {
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
     @media screen and (min-width: 601px) {
-    div.about .card-title {
+    .about .card-title {
       font-size: 2.8em;
     }
   }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
-    div.about .card-title {
+    .about .card-title {
       font-size: 2em;
     }
   }
@@ -132,7 +133,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #000000;
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 1.7em;
     margin-top: 1em;
     max-width: 90%;
@@ -140,15 +141,15 @@ body {
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
-    div.about .card-text {
-      font-size: 1.3em;
+    .about .card-text {
+      font-size: 1.4em;
     }
   }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
-    div.about .card-text {
-      font-size: 1em;
+    .about .card-text {
+      font-size: 1.2em;
     }
   }
 
@@ -179,14 +180,14 @@ body {
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
-    div.que-hago .card-title {
+    .que-hago .card-title {
       font-size: 2.8em;
     }
   }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
-    div.que-hago .card-title {
+    .que-hago .card-title {
       font-size: 2em;
     }
   }
@@ -214,13 +215,13 @@ body {
     margin: 0;
 }
 
-@media handheld, only screen and (max-width: 767px) {
+@media screen and (min-width: 601px) {
     .triangle-dos {
     display:none;
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media screen and (max-width: 600px) {
     .triangle-dos {
     display:none;
     }
@@ -278,14 +279,14 @@ body {
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
-    div.texto-dos {
+    .texto-dos {
       font-size: 2.8em;
     }
   }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
-    div.texto-dos {
+    .texto-dos {
       font-size: 2em;
     }
   }
@@ -310,7 +311,7 @@ body {
     font-weight: 500;
     color: #000000;
     font-size: 1.8em;
-    line-height: 1em;
+    line-height: 1.3em;
     margin: 1.5em;
 }
 
@@ -332,12 +333,6 @@ body {
     margin-top: 10em;
     margin-bottom: 10em;
 }
-
-/* .contacto {
-    padding-left: 8em;
-    padding-right: 8em;
-}
-*/
 
 .texto-seis {
     font-family: 'Montserrat', sans-serif;
@@ -393,6 +388,7 @@ body {
 .formulario {
     padding-top: 3em;
     padding-top: 3em;
+    max-width: 80%;
 }
 
 .formulario label {
