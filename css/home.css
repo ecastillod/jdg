@@ -261,8 +261,7 @@ body {
     }
   }
 
-
-.texto-cuatro {
+  .texto-cuatro {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
@@ -271,29 +270,6 @@ body {
     padding: 0;
     margin-bottom: 0;
     margin-top: 3em;
-}
-
-.triangle-dos {
-    position: absolute;
-    left: -15em;
-    top: 247em;
-    height: 0; 
-    border-top: 1400px solid #ffc72c;
-    border-left: 1680px solid transparent;
-    z-index: -1;
-    margin: 0;
-}
-
-@media screen and (min-width: 601px) {
-    .triangle-dos {
-    display:none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .triangle-dos {
-    display:none;
-    }
 }
 
 .badges {
@@ -315,6 +291,48 @@ body {
     margin-top: 3em;
     max-width: 90%;
     height: auto;
+}
+
+  #good-feelings {
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 10em;
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+
+.texto-nueve {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.8em;
+    line-height: 1em;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.triangle-dos {
+    position: absolute;
+    left: -15em;
+    top: 260em;
+    height: 0; 
+    border-top: 1400px solid #ffc72c;
+    border-left: 1680px solid transparent;
+    z-index: -1;
+    margin: 0;
+}
+
+@media screen and (min-width: 601px) {
+    .triangle-dos {
+    display:none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .triangle-dos {
+    display:none;
+    }
 }
 
 .foto-cuatro .img-fluid {
@@ -367,7 +385,7 @@ body {
 .texto-cinco {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #ffffff;
+    color: #000000;
     font-size: 1.4em;
     line-height: 1.7em;
     margin-bottom: 0;
