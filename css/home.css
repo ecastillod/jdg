@@ -21,19 +21,6 @@ body {
     font-size: 17px;
 }
 
-/*#home {
-    background: url('https://i.ibb.co/fFwF9zD/jdg-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position-y: 3em;
-    background-position-x: center;
-    width: 100%;
-    height: auto;
-}
-*/
-
 @media screen and (min-width: 601px) {
     #home {
         background: url('https://i.ibb.co/fFwF9zD/jdg-bg.jpg') no-repeat center center fixed;
@@ -112,10 +99,6 @@ body {
     }
 }
 
-.texto-uno b {
-    border-bottom: 8px solid #ffc72c;
-}
-
 @media screen and (min-width: 601px) {
     .flecha {
         color: #ffffff;
@@ -171,54 +154,53 @@ body {
     max-width: 90%;
 }
 
-.about .card-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #000000;
-    font-size: 2.8em;
-    margin-top: 1em;
-    max-width: 90%;
-}
-
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
     @media screen and (min-width: 601px) {
     .about .card-title {
-      font-size: 2.8em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #000000;
+        font-size: 2.8em;
+        margin-top: 1em;
+        max-width: 90%;
     }
   }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
     .about .card-title {
-      font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #000000;
+        font-size: 2em;
+        margin-top: 1em;
+        max-width: 90%;
     }
   }
-
-.about .card-title b {
-    border-bottom: 8px solid #ffffff;
-}
-
-.about .card-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #000000;
-    font-size: 1.4em;
-    line-height: 1.7em;
-    margin-top: 1em;
-    max-width: 90%;
-}
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
     .about .card-text {
-      font-size: 1.4em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: 1.4em;
+        line-height: 1.7em;
+        margin-top: 1em;
+        max-width: 90%;
     }
   }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
     .about .card-text {
-      font-size: 1.2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: 1.2em;
+        line-height: 1.7em;
+        margin-top: 1em;
+        max-width: 90%;
     }
   }
 
@@ -239,7 +221,6 @@ body {
         height: auto;
     }
   }
-
 
 #consultoria {
     margin-top: 4em;
@@ -377,7 +358,6 @@ body {
     }
   }
 
-
 #consultoria .card-text {
     color: #ffffff;
     margin-right: 3em;
@@ -392,15 +372,6 @@ body {
     max-width: 80%;
     margin-top: 2em;
     padding-bottom: 2em;
-}
-
-.texto-dos {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #000000;
-    font-size: 2.8em;
-    line-height: 1.3;
-    margin-top: 1em;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -426,10 +397,6 @@ body {
         margin-top: 0;
     }
   }
-
-.texto-dos b {
-    border-bottom: 8px solid #ffffff;
-}
 
 .texto-cinco {
     font-family: 'Montserrat', sans-serif;
